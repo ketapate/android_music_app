@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">keta2_app</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Music_Search">Music Search</string>
+    <string name="Search_Keywords">Search Keywords</string>
+    <string-array name="type">
+        <item >artists</item>
+        <item >albums</item>
+        <item >songs</item>
+    </string-array>
+    <string name="Search">Search</string>
+    <string name="Close">Close</string>
+    <string name="Your_List">Your List</string>
+    
+    <string name="hello">Hello World, ImageTextListViewActivity!</string>
+    <string name="app_name">Music Search</string>
+    <string name="name">ListViewBaseAdapter</string>
+    <string name="image">Thumbnail</string>
+    <string name="APP_ID">148400265332328</string>
+    
+
+</resources>

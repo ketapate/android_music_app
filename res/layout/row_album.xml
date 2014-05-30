@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+     
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"        
+        android:contentDescription="@string/image"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+ 
+    <TextView
+        android:id="@+id/album_title"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"        
+        android:layout_toRightOf="@+id/image"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:textColor="#3399FF"
+        android:textSize="14sp" />
+    
+    <TextView
+        android:id="@+id/album_artists"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"        
+        android:layout_toRightOf="@+id/album_title"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:textColor="#3399FF"
+        android:textSize="14sp" />
+    
+    <TextView
+        android:id="@+id/album_genre"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"        
+        android:layout_toRightOf="@+id/album_artists"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:textColor="#3399FF"
+        android:textSize="14sp" />
+    
+    <TextView
+        android:id="@+id/album_year"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"        
+        android:layout_toRightOf="@+id/album_genre"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:textColor="#3399FF"
+        android:textSize="14sp" />
+    
+</RelativeLayout>
